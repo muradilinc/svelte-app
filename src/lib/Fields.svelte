@@ -26,7 +26,7 @@
 
   const submitHandler = (event: SubmitEvent) => {
     event.preventDefault();
-    const toast = toasts.add({
+    toasts.add({
       title: 'Success!',
       description: 'Данные успешно отправлены.',
       duration: 3000,
